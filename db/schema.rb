@@ -31,14 +31,6 @@ ActiveRecord::Schema.define(version: 20140321045142) do
     t.datetime "updated_at"
   end
 
-  create_table "favourites", force: true do |t|
-    t.integer  "user_id"
-    t.integer  "quote_id"
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "quotes", force: true do |t|
     t.text     "text"
     t.datetime "created_at"
