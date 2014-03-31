@@ -1,3 +1,3 @@
 class Author < ActiveRecord::Base
-  has_many Quotes;
+  has_many :quotes
 end

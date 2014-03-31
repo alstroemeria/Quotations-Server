@@ -1,16 +1,16 @@
-<%- model_class = Quote -%>
-  <h1>Popular</h1>
-<table class="table table-striped">
-  <tbody>
-    <% @quotes.each do |quote| %>
-      <tr>
-        <td><%= link_to quote.text, quote_path(quote) %></td>
-       
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<% content_for :javascript_includes do %>
+  <%= javascript_include_tag "masonry.js" %>
+<% end %>
 
-<%= link_to t('.new', :default => t("helpers.links.new")),
-            new_quote_path,
-            :class => 'btn btn-primary' %>
+<% content_for :css do  %>
+
+<% end %>
+
+<%- model_class = Quote -%>
+
+
+<div id="masonry-container" class="transitions-enabled infinite-scroll clearfix">
+    <% @quotes.each do |quote| %>
+        <%= render quote %>
+    <% end %>
+</div>
