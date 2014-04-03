@@ -1,4 +1,6 @@
 #masonry-container {
+  width: auto;
+  margin: 0 auto; 
 }
 
 #DIV_1 {
@@ -11,7 +13,7 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none solid rgba(255, 255, 255, 0.6);
     width: 200px;
-    background: rgb(110, 161, 56) none repeat scroll 0% 0% / auto padding-box border-box;
+    background: rgb(41, 128, 185) none repeat scroll 0% 0% / auto padding-box border-box;
     font: italic normal normal 12px/14.949999809265137px Corbel, 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif;
     padding: 12px 15px 10px;
 }/*#DIV_4*/
