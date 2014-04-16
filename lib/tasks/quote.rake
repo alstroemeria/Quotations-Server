@@ -15,7 +15,7 @@ namespace :quote do
   task :color => :environment do
     quote = Quote.all
     quote.each do |q|
-      q.color = colors[rand(5)]
+      q.color = colors[rand(10)]
       q.save
     end
   end
