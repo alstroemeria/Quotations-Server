@@ -63,6 +63,7 @@ GEM
     minitest (5.3.1)
     multi_json (1.9.2)
     orm_adapter (0.5.0)
+    pg (0.17.1)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -131,6 +132,7 @@ DEPENDENCIES
   devise
   jquery-rails
   masonry-rails
+  pg
   rails (= 4.1.0.rc1)
   sass-rails (~> 4.0.1)
   sdoc (~> 0.4.0)
