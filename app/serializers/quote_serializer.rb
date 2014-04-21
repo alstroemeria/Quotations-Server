@@ -1,5 +1,5 @@
 class QuoteSerializer < ActiveModel::Serializer
-  embed :ids, include: true
+  embed :ids
   attributes :id, :text
   has_one :category
 end
