@@ -1,7 +1,20 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+path = "#{Rails.root}/public/seed.json"
+seed = JSON.parse(File.read(path))
+
+puts "Seeding Authors: "
+seed["authors"].each do |author|
+  puts "  #{author}"
+  Author.create({name:author});
+end
+
+puts "Seeding Categories: "
+seed["categories"].each do |category|
+  puts "  #{category}"
+  Category.create({name:category});
+end
+
+puts "Seeding Quotes: "
+seed["quotes"].each do |quote|
+  puts "  #{quote["text"]}"
+  Quote.create({author_id:quote["author_id"], category_id:quote["category_id"], text:quote["text"]});
+end

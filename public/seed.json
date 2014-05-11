@@ -1,0 +1,26 @@
+{
+    "authors": [
+        "Antoine de Saint-Exupery",
+        "Dr. Seuss"
+    ],
+    "categories": [
+        "Friendship & Family",
+        "Wisdom",
+        "Love",
+        "Work&Success",
+        "Motavation & Religion",
+        "Faith&Religion"
+    ],
+    "quotes": [
+        {
+            "author_id": 1,
+            "category_id": 1,
+            "text": "Love does not consist in gazing at each other, but in looking outward together in the same direction."
+        },
+        {
+            "author_id": 2,
+            "category_id": 2,
+            "text": "Don't cry because it's over, smile because it happened."
+        }
+    ]
+}
