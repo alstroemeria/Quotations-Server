@@ -1,26 +1,638 @@
 {
     "authors": [
-        "Antoine de Saint-Exupery",
-        "Dr. Seuss"
+       "Abraham H. Maslow",    
+       "Abraham Lincoln",    
+       "Albert Camus",    
+       "Albert Einstein",    
+       "Alexander the Great",    
+       "Alfred Hitchcock",    
+       "Alice Longworth",    
+       "Alvin Lee",    
+       "Anais Nin",    
+       "Anne Frank",    
+       "Aristotle",    
+       "Ayn Rand",    
+       "Benjamin Disraeli",    
+       "Benjamin Franklin",    
+       "Bill Gates",    
+       "Bob Dylan",    
+       "Bob Marley",    
+       "Bono",    
+       "Brian Clough",    
+       "Bruce Lee",    
+       "Buddha",    
+       "C. S. Lewis",    
+       "Calvin Coolidge",    
+       "Charles Darwin",    
+       "Charles Dickens",    
+       "Chet Atkins",    
+       "Cicero",    
+       "Coco Chanel",    
+       "Confucius",    
+       "Dalai Lama",    
+       "Dale Carnegie",    
+       "Dorothy Parker",    
+       "Douglas Adams",    
+       "Edgar Allan Poe",    
+       "Eleanor Roosevelt",    
+       "Elizabeth I of England",    
+       "Elvis Presley",    
+       "Erma Bombeck",    
+       "Ernest Hemingway",    
+       "Franklin D.Roosevelt",    
+       "Friedrich Nietzsche",    
+       "G.K Chesterton",    
+       "George Bernard Shaw",    
+       "George Carlin",    
+       "George Washington",    
+       "George Weah",    
+       "Goethe",    
+       "Groucho Marx",    
+       "H.G. Wells",    
+       "Helen Keller",    
+       "Henry David Thoreau",    
+       "Henry Ford",    
+       "Homer Simpson",    
+       "Janis Joplin",    
+       "Jesus Christ",    
+       "Jim Morrison",    
+       "Jim Rohn",    
+       "Jimi Hendrix",    
+       "John Adams",    
+       "John Cleese",    
+       "John F. Kennedy",    
+       "John Lennon",    
+       "John Mayer",    
+       "John Wooden",    
+       "Johnny Depp",    
+       "Karl Marx",    
+       "Ken Robinson",    
+       "Khalil Gibran",    
+       "Kris Kristofferson",    
+       "Kurt Cobain",    
+       "Lao Tzu",    
+       "Leonardo da Vinci",    
+       "Lord Byron",    
+       "Lou Holtz",    
+       "Mae West",    
+       "Malcolm X",    
+       "Marcus Aurelius",    
+       "Margaret Thatcher",    
+       "Margot Asquith",    
+       "Marianne Williamson",    
+       "Mark Knopfler",    
+       "Mark Twain",    
+       "Marilyn Monroe",    
+       "Martin Luther King",    
+       "Maya Angelou",    
+       "Mary Pickford",    
+       "Michael Jackson",    
+       "Michelangelo",    
+       "Mitch Hedberg",    
+       "Mohandas Gandhi",    
+       "Mother Teresa",    
+       "Muhammad Ali",    
+       "Mustafa Kemal Ataturk",    
+       "Nancy Mitford",    
+       "Napoleon Bonaparte",    
+       "Napoleon Hill",    
+       "Nathaniel Hawthorne",    
+       "Neil Armstrong",    
+       "Nelson Mandela",    
+       "Niccolo Machiavelli",    
+       "Nikola Tesla",    
+       "Oprah Winfrey",    
+       "Orson Welles",    
+       "Oscar Wilde",    
+       "Osho",    
+       "Pablo Picasso",    
+       "Patrick Swayze",    
+       "Paul McCartney",    
+       "Paulo Coelho",    
+       "Peter Gabriel",    
+       "Plato",    
+       "Pope John Paul II",    
+       "Ralph Waldo Emerson",    
+       "Robert Fripp",    
+       "Robin Williams",    
+       "Ronald Reagan",    
+       "Salvador Dali",    
+       "Sigmund Freud",    
+       "Socrates",    
+       "Stephen Fry",    
+       "Stephen King",    
+       "Steven Wright",    
+       "Sun Tzu",    
+       "Theodor Adorno",    
+       "Theodore Roosevelt",    
+       "Thomas A. Edison",    
+       "Thomas Jefferson",    
+       "Thomas Paine",    
+       "Tony Robbins",    
+       "Tupac Shakur",    
+       "Victor Hugo",    
+       "Vincent Van Gogh",    
+       "Vladimir Lenin",    
+       "Voltaire",    
+       "W. C. Fields",    
+       "Walt Disney",    
+       "Walt Whitman",    
+       "Warren Buffett",    
+       "Will Rogers",    
+       "William Blake",    
+       "William Shakespeare",    
+       "Winston Churchill",    
+       "Woodrow Wilson",    
+       "Woody Allen",    
+       "Yogi Berra",    
+       "Zig Ziglar",    
+       "Zinedine Zidane",    
+       "Voltairine de Cleyre",    
+       "Georg C. Lichtenberg",    
+       "Maria Montessori",    
+       "Edward Murphy",    
+       "Wilbur Wright",    
+       "Orville Wright",    
+       "Stan Laurel",    
+       "Oliver Hardy",    
+       "Charlie Chaplin",    
+       "Frank Herbert",    
+       "Chinua Achebe",    
+       "John Ashbery",    
+       "Joseph Addison",    
+       "Harry Fosdick",    
+       "Rene Descartes",    
+       "Samuel Smiles",    
+       "Blaise Pascal",    
+       "Spiro Agnew",    
+       "Miguel de Cervantes",    
+       "Elijah Cummings",    
+       "Steve Jobs",    
+       "Karl Von Clausewitz",    
+       "Mary Kay Ash",    
+       "George Balanchine",    
+       "James Allen",    
+       "Viktor Frankl",    
+       "John Wayne",    
+       "R. Buckminster Fuller",    
+       "Soren Kirkegaard",    
+       "Ozzy Osbourne",    
+       "Nick Cave",    
+       "Arthur Williams",    
+       "Robert Frost",    
+       "Frank Lloyd Wright",    
+       "George Orwell",    
+       "Richard Dawkins",    
+       "Christopher Hitchens",    
+       "Carl Sagan",    
+       "John Locke",    
+       "Andrew Carnegie",    
+       "Abdul Kalam",    
+       "Alan Watts",    
+       "Angela Davis",    
+       "Audrey Hepburn",    
+       "Baltasar Gracian",    
+       "Baruch Spinoza",    
+       "Deepak Chopra",    
+       "Desmond Tutu",    
+       "John von Neumann",    
+       "Kofi Annan",    
+       "Marie Curie",    
+       "Neil Young",    
+       "Pandurang S. Athavale",    
+       "Simone Weil",    
+       "Sophocles",    
+       "Stanislaw Jerzy Lec",    
+       "Swami Sivananda",    
+       "Vince Lombardi",    
+       "Wangari Maathai",    
+       "Wislawa Szymborska",    
+       "Brigitte Bardot",    
+       "Nicholas Sparks",    
+       "Masashi Kishimoto",    
+       "Jean-Jacques Rousseau",    
+       "Jules Renard",    
+       "Samuel Butler",    
+       "Meryl Streep",    
+       "Barack Obama",    
+       "Usain Bolt",    
+       "Julie Andrews",    
+       "Lech Walesa",    
+       "Queen Elizabeth II",    
+       "Albert Schweitzer",    
+       "Rosa Parks",    
+       "Bertrand Russell",    
+       "Terry Pratchett",    
+       "Erich Maria Remarque",    
+       "Aldous Huxley",    
+       "Jonathan Davis",    
+       "Michel Quoist",    
+       "Chris Rock ",    
+       "Isaac Newton ",    
+       "Ludwig van Beethoven ",    
+       "Alphonse de Lamartine",    
+       "Wendell Berry ",    
+       "Scott Peck",    
+       "Fulton Sheen",    
+       "Christopher Dawson",    
+       "Michel de Montaigne",    
+       "Robert Fulghum",    
+       "Chanakya",    
+       "Arthur C. Clarke",    
+       "Carl Jung",    
+       "Alan A. Milne",    
+       "Francis of Assisi",    
+       "Richard Feynman",    
+       "Steven Tyler",    
+       "Wayne Dyer",    
+       "Jiddu Krishnamurti",    
+       "George Santayana",    
+       "John Stuart Mill",    
+       "Sachin Tendulkar",    
+       "Swami Vivekananda",    
+       "Rick Riordan",    
+       "Visvesvaraya"
     ],
     "categories": [
         "Friendship & Family",
         "Wisdom",
         "Love",
-        "Work&Success",
-        "Motavation & Religion",
-        "Faith&Religion"
+        "Work & Success",
+        "Undefined",
+        "Motivation & Inspiration",
+        "Faith & Religion",
+        "Truth & Peace",
+        "Politics & Leadership",
+        "Humour",
+        "Knowledge & Education",
+        "War & Evil",
+        "Life & Age",
+        "Fear & Death",
+        "Kindness & Happiness",
+        "Failure",
+        "Music & Art",
+        "People & Humanity"
     ],
     "quotes": [
         {
-            "author_id": 1,
-            "category_id": 1,
-            "text": "Love does not consist in gazing at each other, but in looking outward together in the same direction."
+          "author_id"   : 2,
+          "category_id" : 1,
+          "text"        : "A friend is one who has the same enemies as you have."
         },
         {
-            "author_id": 2,
-            "category_id": 2,
-            "text": "Don't cry because it's over, smile because it happened."
+            "author_id"   : 2,
+            "category_id" : 2,
+            "text"        : "A house divided against itself cannot stand. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 3,
+            "text"        : "A woman is the only thing I am afraid of that I know will not hurt me. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 3,
+            "text"        : "All I am, or can be, I owe to my angel mother."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 4,
+            "text"        : "Always bear in mind that your own resolution to succeed is more important than any other. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 2,
+            "text"        : "As our case is new, we must think and act anew. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 2,
+            "text"        : "Be sure you put your feet in the right place, then stand firm. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 5,
+            "text"        : "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 5,
+            "text"        : "Common looking people are the best in the world: that is the reason the Lord makes so many of them."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 6,
+            "text"        : "I am not bound to win, but I am bound to be true. I am not bound to succeed, but I am bound to live by the light that I have. I must stand with anybody that stands right, and stand with him while he is right, and part with him when he goes wrong."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 4,
+            "text"        : "I don't like that man. I must get to know him better."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 6,
+            "text"        : "I have always found that mercy bears richer fruits than strict justice."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 4,
+            "text"        : "I will prepare and some day my chance will come. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 4,
+            "text"        : "I'm a slow walker, but I never walk back."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 4,
+            "text"        : "If I had eight hours to chop down a tree, I'd spend six hours sharpening my axe. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 2,
+            "text"        : "It is better to remain silent and be thought a fool than to open one's mouth and remove all doubt. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 7,
+            "text"        : "Sir, my concern is not whether God is on our side; my greatest concern is to be on God's side, for God is always right. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 4,
+            "text"        : "The best way to destroy an enemy is to make him a friend."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 5,
+            "text"        : "The dogmas of the quiet past are inadequate to the stormy present. The occasion is piled high with difficulty, and we must rise with the occasion. As our case is new, so we must think anew and act anew."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 8,
+            "text"        : "There is nothing true anywhere, The true is nowhere to be seen; If you say you see the true, This seeing is not the true one. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 9,
+            "text"        : "Those who deny freedom to others deserve it not for themselves. "
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 9,
+            "text"        : "Nearly all men can stand adversity, but if you want to test a man's character, give him power."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 13,
+            "text"        : "All my life I have tried to pluck a thistle and plant a flower wherever the flower would grow in thought and mind."
+        },
+        {
+            "author_id"   : 2,
+            "category_id" : 10,
+            "text"        : "The best thing about the future is that it comes one day at a time."
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 2,
+            "text"        : "A perfection of means, and confusion of aims, seems to be our main problem. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 4,
+            "text"        : "A person who never made a mistake never tried anything new. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 7,
+            "text"        : "All religions, arts and sciences are branches of the same tree. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 9,
+            "text"        : "An empty stomach is not a good political adviser."
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 11,
+            "text"        : "Any man who reads too much and uses his own brain too little falls into lazy habits of thinking."
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 8,
+            "text"        : "Anyone who doesn't take truth seriously in small matters cannot be trusted in large ones either. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 5,
+            "text"        : "Confusion of goals and perfection of means seems, in my opinion, to characterize our age."
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 2,
+            "text"        : "Not everything that can be counted counts, and not everything that counts can be counted. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 3,
+            "text"        : "Gravitation is not responsible for people falling in love. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 12,
+            "text"        : "I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 13,
+            "text"        : "I never think of the future - it comes soon enough. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 11,
+            "text"        : "Imagination is more important than knowledge. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 6,
+            "text"        : "Imagination is everything. It is the preview of life's coming attractions."
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 2,
+            "text"        : "Intellectuals solve problems, geniuses prevent them. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 8,
+            "text"        : "Peace cannot be kept by force; it can only be achieved by understanding. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 7,
+            "text"        : "Science without religion is lame, religion without science is blind. "
+        },
+        {
+            "author_id"   : 4,
+            "category_id" : 2,
+            "text"        : "The difference between stupidity and genius is that genius has its limits. "
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "A superior man is modest in his speech, but exceeds in his actions."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 2,
+            "text"        : "The object of the superior man is truth."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 2,
+            "text"        : "Real knowledge is to know the extent of one's ignorance."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 2,
+            "text"        : "I hear and I forget. I see and I remember. I do and I understand."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 2,
+            "text"        : "The essence of knowledge is, having it, to apply it; not having it, to confess your ignorance."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 2,
+            "text"        : "Learn as though you would never be able to master it; hold it as though you would be in fear of losing it."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 2,
+            "text"        : "When prosperity comes, do not use all of it."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 4,
+            "text"        : "The superior man understands what is right; the inferior man understands what will sell."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 2,
+            "text"        : "Think no vice so small that you may commit it, and no virtue so small that you may over look it."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 13,
+            "text"        : "The more man meditates upon good thoughts, the better will be his world and the world at large."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 13,
+            "text"        : "Don't be concerned others not appreciating you. Be concerned about your not appreciating others."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 4,
+            "text"        : "Choose a job you love and you will never have to work a day of your life."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 12,
+            "text"        : "When anger rises, think of the consequences."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 14,
+            "text"        : "If you don't know how to live, why wonder about death?"
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "The expectations of life depend upon diligence; the mechanic that would perfect his work must first sharpen his tools."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 4,
+            "text"        : "He who will not economize will have to agonize."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 1,
+            "text"        : "The strength of a nation derives from the integrity of the home."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 2,
+            "text"        : "Gravity is only the bark of wisdom's tree; but it preserves it"
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 3,
+            "text"        : "Wheresoever you go, go with all your heart."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "Only the wisest and stupidest of men never change."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "Sincerity and truth are the basis of every virtue."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "Do not worry about holding high position; worry rather about playing your proper role."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "Man who stand on hill with mouth open will wait long time for roast duck to drop in."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "Don't complain about the snow on your neighbor's roof when your own doorstep is unclean."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "The superior man thinks only of virtue; the common man thinks only of comfort."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "If you think in terms of a year, plant a seed; if in terms of ten years, plant trees; if in terms of 100 years, teach the people."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "To go too far is as bad as to fall short."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "It is better to light one small candle than to curse the darkness."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "When we see men of a contrary character, we should turn inwards and examine ourselves."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 6,
+            "text"        : "Our greatest glory is not in never falling but in rising every time we fall."
+        },
+        {
+            "author_id"   : 29,
+            "category_id" : 15,
+            "text"        : "Forget injuries, never forget kindnesses."
         }
     ]
 }

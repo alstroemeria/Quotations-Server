@@ -52,6 +52,12 @@ class QuotesController < ApplicationController
       format.html { redirect_to quotes_url }
     end
   end
+  
+  def update
+    @quote = Quote.find(params[:id])
+    @quote.update(favorites: @quote.favorites + 1)
+    respond_with @quote
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.

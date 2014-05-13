@@ -4,9 +4,36 @@ module Api
       skip_before_filter  :verify_authenticity_token
       respond_to :json
       
+
       def index
-        respond_with Quote.all
+        page = params.has_key?(:page)? params[:page] : 1
+        per_page = params.has_key?(:limit)? params[:limit] : 25
+        mode = params.has_key?(:mode)? params[:mode] : ''
+        time = params.has_key?(:t)? params[:t] : 'year'
+        
+        case(time)
+          when 'year'
+            start = 1.year.ago
+          when 'month'
+            start = 1.month.ago
+          when 'week'
+            start = 1.week.ago
+          when 'day'
+            start = 1.year.ago
+        end
+        
+        case(mode)
+          when "top"         
+            quotes = Quote.order('favorites desc')
+          when "new"
+            quotes = Quote.order('created_at desc')
+          else 
+            quotes = Quote.order('created_at desc')
+        end
+        respond_with quotes.created_between(start, Time.now).page(page).per(per_page)
       end
+      
+     
       
       def show
         respond_with Quote.find(params[:id])
@@ -21,13 +48,13 @@ module Api
         end
       end
       
-      def update
-        respond_with Quote.update(params[:id], params[:products])
+      def favorite
+        quote = Quote.find(params[:id])
+        quote.update(favorites: quote.favorites + 1)
+        respond_with quote
       end
       
-      def destroy
-        respond_with Quote.destroy(params[:id])
-      end
+
       
       private 
         def quote_params 

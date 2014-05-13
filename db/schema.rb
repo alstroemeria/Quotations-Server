@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140511014812) do
+ActiveRecord::Schema.define(version: 20140512222533) do
 
   create_table "authors", force: true do |t|
     t.string   "name"
@@ -26,10 +26,10 @@ ActiveRecord::Schema.define(version: 20140511014812) do
   end
 
   create_table "favorites", force: true do |t|
-    t.integer  "users_id"
-    t.integer  "quotes_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "count"
+    t.integer  "quote_id"
   end
 
   create_table "quotes", force: true do |t|
@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 20140511014812) do
     t.integer  "category_id"
     t.string   "color"
     t.integer  "author_id"
+    t.integer  "favorites"
   end
 
   create_table "users", force: true do |t|

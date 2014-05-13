@@ -2,6 +2,10 @@ Rails.application.routes.draw do
   namespace :api , defaults: {format: 'json'} do
     namespace :v1 do
       resources :quotes, :categories, :authors
+      get '/favorite/:id', to: 'quotes#favorite'
+      get '/quote/hot/', to: 'quotes#hot'
+      get '/quote/top/', to: 'quotes#top'
+
     end
   end
   
